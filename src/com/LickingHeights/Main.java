@@ -43,7 +43,7 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
         System.out.println("Even with all those planets, only a couple of them will be able to develop life.");
         System.out.println("How many do you think will develop life. Give me a number from 1 to 5.");
         numberOfExoplanets = keyboard.nextInt();
-
+        f_l = 1;
 
         //1. Ask for rStar number 2. Store in the rStar variable 3. Commit
         //1. Ask for f_p fraction 2. Store in the f_p variable 3. Commit
