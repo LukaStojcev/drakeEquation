@@ -45,6 +45,9 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
         numberOfExoplanets = keyboard.nextInt();
         f_l = 1;
         f_i = 1;
+        System.out.println("And even with all of that, only a certain amount are going to figure out how to communicate with us.");
+        System.out.println("How many will be able to? Give me a number from 0.1 to 0.2");
+        f_c = keyboard.nextInt();
 
         //1. Ask for rStar number 2. Store in the rStar variable 3. Commit
         //1. Ask for f_p fraction 2. Store in the f_p variable 3. Commit
