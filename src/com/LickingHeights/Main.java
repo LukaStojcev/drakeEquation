@@ -30,6 +30,10 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
 
         Scanner keyboard;
         keyboard = new Scanner(System.in);
+        System.out.println("There has always been a question on whether life really exists on other planets or not.");
+        System.out.println("In order for life to appear, stars first have to be created.");
+        System.out.println("How many stars do you think form every year?");
+        rStar = keyboard.nextInt();
         N = rStar * f_p * numberOfExoplanets * f_l * f_i * f_c * L;
 
         System.out.println("The number of intelligent species that are out there \n" +
