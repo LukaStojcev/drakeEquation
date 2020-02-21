@@ -1,5 +1,7 @@
 package com.LickingHeights;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -30,6 +32,7 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
 
         Scanner keyboard;
         keyboard = new Scanner(System.in);
+
         System.out.println("There has always been a question on whether life really exists on other planets or not.");
         System.out.println("In order for life to appear, stars first have to be created.");
         System.out.println("How many stars do you think form every year?");
@@ -37,6 +40,15 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
         System.out.println("Out of all those stars, only a few end up becoming planets.");
         System.out.println("How many do you think become planets. Give me a number from 0.2 to 0.5.");
         f_p = keyboard.nextInt();
+        System.out.println("Even with all those planets, only a couple of them will be able to develop life.");
+        System.out.println("How many do you think will develop life. Give me a number from 1 to 5.");
+        numberOfExoplanets = keyboard.nextInt();
+
+
+        //1. Ask for rStar number 2. Store in the rStar variable 3. Commit
+        //1. Ask for f_p fraction 2. Store in the f_p variable 3. Commit
+        //todo complete each one of the variables storing them correctly and committing each time
+
         N = rStar * f_p * numberOfExoplanets * f_l * f_i * f_c * L;
 
         System.out.println("The number of intelligent species that are out there \n" +
