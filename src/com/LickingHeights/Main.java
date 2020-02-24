@@ -43,8 +43,8 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
         System.out.println("Even with all those planets, only a couple of them will be able to develop life.");
         System.out.println("How many do you think will develop life. Give me a number from 1 to 5.");
         numberOfExoplanets = keyboard.nextInt();
-        f_l = 1;
-        f_i = 1;
+        System.out.println("Now how many of those do you think will develop life? Give me a number from 0.1 to 0.9");
+        f_l = keyboard.nextDouble();
         System.out.println("And even with all of that, only a certain amount are going to figure out how to communicate with us.");
         System.out.println("How many will be able to? Give me a number from 0.1 to 0.2");
         f_c = keyboard.nextInt();
